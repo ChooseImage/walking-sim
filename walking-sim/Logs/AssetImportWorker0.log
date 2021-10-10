@@ -267,3 +267,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 397.376212 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(650a30204a93448c58da6c9d913c7c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(650a30204a93448c58da6c9d913c7c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e28a406f8eae9a20ac3fd34cae4bcc7') in 0.024760 seconds 
+  Import took 0.037672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.799040 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.476413 seconds 
+  Import took 0.481738 seconds .
+
