@@ -406,6 +406,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: collectable (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1091073776163562793, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}
+      propertyPath: m_TagString
+      value: Collectable
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296188524018051640, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8646979868952307338, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -462,7 +470,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1357458113944863136, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}
 --- !u!1 &705507993
 GameObject:
@@ -1606,6 +1615,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: collectable (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1091073776163562793, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}
+      propertyPath: m_TagString
+      value: Collectable
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296188524018051640, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8646979868952307338, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -1662,7 +1679,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1357458113944863136, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}
 --- !u!1 &2111140681
 GameObject:
@@ -1952,6 +1970,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: collectable
       objectReference: {fileID: 0}
+    - target: {fileID: 1091073776163562793, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}
+      propertyPath: m_TagString
+      value: Collectable
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296188524018051640, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8646979868952307338, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -1996,5 +2022,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1357458113944863136, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 21ffff0a38ed94b34baa49df8088134e, type: 3}

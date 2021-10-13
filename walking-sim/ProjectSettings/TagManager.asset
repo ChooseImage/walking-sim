@@ -7,6 +7,7 @@ TagManager:
   - block
   - player
   - Clock
+  - Collectable
   layers:
   - Default
   - TransparentFX
