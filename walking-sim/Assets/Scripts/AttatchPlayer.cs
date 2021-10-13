@@ -8,13 +8,13 @@ public class AttatchPlayer : MonoBehaviour
     public GameObject Player;
 
     private void OnTriggerEnter(Collider other) {
-        if(other.gameObject == Player){
+        if(other.CompareTag("player")){
             Player.transform.parent = transform;
         }
     }
 
     private void OnTriggerExit(Collider other) {
-                if(other.gameObject == Player){
+                if(other.CompareTag("player")){
             Player.transform.parent = null;
         }
     }
