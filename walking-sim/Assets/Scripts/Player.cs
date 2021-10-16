@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Light lt;
+
     void Start()
     {
-        
+        lt = GetComponent<Light>();
     }
 
     // Update is called once per frame
@@ -17,6 +18,7 @@ public class Player : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.R)){
             SceneManager.LoadScene("SampleScene");
         }
+         lt.color -= (Color.white / 2.0f) * Time.deltaTime;
     }
 
     void OnTriggerEnter(Collider other){
