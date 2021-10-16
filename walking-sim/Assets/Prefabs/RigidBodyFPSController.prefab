@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 4493240520970804177}
   - component: {fileID: 4493240520961096465}
   - component: {fileID: 4493240520958840149}
+  - component: {fileID: 5094631712692580922}
   m_Layer: 0
   m_Name: RigidBodyFPSController
   m_TagString: Untagged
@@ -300,3 +301,23 @@ MonoBehaviour:
     slowDownRate: 20
     airControl: 0
     shellOffset: 0
+--- !u!114 &5094631712692580922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4493240520965421239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec2af8f354864282a5d766aeef76ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Blink: 1
+  Float: 1
+  Skate: 0
+  BlinkRange: 30
+  SetBlinkTimes: 2
+  SetBlinkRechargingTime: 3
+  SetFloatTime: 3
+  SetFloatCD: 6
